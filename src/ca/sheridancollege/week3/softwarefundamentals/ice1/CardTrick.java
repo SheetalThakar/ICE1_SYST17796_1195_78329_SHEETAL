@@ -45,6 +45,10 @@ public class CardTrick {
         
         //printing the new object
         System.out.println("The new card is "+newObject.getValue()+" of "+newObject.getSuit());
+        
+        Card luckyCard = new Card();
+        luckyCard.setValue(5);
+        luckCard.setSuit("Hearts");
     }
     
 }
