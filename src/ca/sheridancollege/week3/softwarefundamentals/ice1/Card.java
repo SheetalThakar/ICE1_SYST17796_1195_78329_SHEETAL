@@ -25,6 +25,10 @@ public class Card {
        this.value=a;
        this.suit=b;
    }
+   Card()
+   {
+       
+   }
    public static final String [] SUITS = {"Hearts", "Diamonds", "Spades", "Clubs"};
     /**
      * @return the suit
