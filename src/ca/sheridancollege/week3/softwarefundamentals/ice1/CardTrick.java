@@ -41,7 +41,9 @@ public class CardTrick {
                 System.out.println("The value of the card is " +sc+ " and suit of the card is "+str  );
         Card luckyCard = new Card();
         luckyCard.setValue(4);
-        luckyCard.setSuits(Card.SUITS[2]);
+        luckyCard.setSuit(Card.SUITS[2]);
+        System.out.println("The lucky card is "+luckyCard.getValue()+" of "+luckyCard.getSuit());            
+           
 // and search magicHand here
         //Then report the result here
     }
