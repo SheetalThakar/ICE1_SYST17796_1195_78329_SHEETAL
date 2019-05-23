@@ -22,7 +22,8 @@ public class CardTrick {
         Random rand=new Random();
         Scanner input = new Scanner(System.in);
         Card luckyCard = new Card();
-        
+        luckyCard.setValue(12);
+        luckyCard.setSuit("Hearts");
         
         for (int i=0; i<magicHand.length; i++)
         {
