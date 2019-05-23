@@ -38,17 +38,17 @@ public class CardTrick {
             //c.setSuit(Card.SUITS[insert call to random number between 0-3 here])
         }
         
-        System.out.println("Enter Card value in 1-13");
+        System.out.println("Enter Card value in 1-13: ");
         int cardVal = scan.nextInt();
-        System.out.println("Enter suit value in 1-4");
+        System.out.println("Enter suit value in 1-4: ");
         int cardSuit= scan.nextInt();      
-        System.out.println("Your choosen card is "+cardVal+" of "+Card.SUITS[cardSuit]);
+        System.out.println("Your choosen card is: "+cardVal+" of "+Card.SUITS[cardSuit]);
         
         //insert code to ask the user for Card value and suit, create their card3
         Card luckyCard= new Card();
         luckyCard.setValue(3);
         luckyCard.setSuit(Card.SUITS[3]);
-        
+        System.out.println("Your LuckyCard is: "+luckyCard.getValue()+" of "+luckyCard.getSuit());
         
         //Then report the result here
     }
