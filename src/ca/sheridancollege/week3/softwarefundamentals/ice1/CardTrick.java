@@ -42,7 +42,8 @@ public class CardTrick {
         String cardSuit= input.nextLine();
        
         System.out.println("Your card is: "+cardNumber+"  "+cardSuit);
-        
+        System.out.println("Lucky card is: "+luckyCard.getValue()+"  "+luckyCard.getSuit());
+       
         // and search magicHand here
         //Then report the result here
     }
