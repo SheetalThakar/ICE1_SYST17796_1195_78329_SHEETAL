@@ -41,6 +41,9 @@ public class CardTrick {
         
         System.out.println ("your guess for the value was "+ valueGuess + " and for suit was " + suitGuess);
         System.out.println ("Magic hand was " + c.getValue + " and " + c.getSuit);
+                      
+          Card luckyCard = new Card();
+                      
         
         
     }
