@@ -51,7 +51,7 @@ public class CardTrick {
         Card luckyCard=new Card();
         luckyCard.setValue(2);
         luckyCard.setSuit("Diamonds");
-        
+        System.out.println("The lucky card is: "+luckyCard.getValue()+"of "+luckyCard.getSuit());
 
 
     }
