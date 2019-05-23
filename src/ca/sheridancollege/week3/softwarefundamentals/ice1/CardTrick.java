@@ -38,7 +38,7 @@ public class CardTrick {
         //Then report the result here
         Card luckyCard = new Card();
         luckyCard.setValue(5);
-        luckyCard.setSuit("Clubs");
+        luckyCard.setSuit("Spades");
     }
     
 }
