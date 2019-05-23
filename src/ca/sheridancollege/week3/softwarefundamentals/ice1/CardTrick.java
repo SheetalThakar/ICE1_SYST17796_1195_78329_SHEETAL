@@ -48,8 +48,8 @@ public class CardTrick {
         for (Card card: magicHand) {
             
             // record the value and suit of each card
-            int cardValue = card.getValue();
-            String cardSuit = card.getSuit();
+            int cardValue = luckyCard.getValue();
+            String cardSuit = luckyCard.getSuit();
             System.out.print(cardSuit + " " + cardValue + ", ");
             
             // if user's input is equal to the value and suit of magic card?
