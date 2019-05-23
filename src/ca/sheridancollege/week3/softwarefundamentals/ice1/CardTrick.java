@@ -54,8 +54,11 @@ public class CardTrick {
         System.out.println("You picked: " + newCardObject.getValue() + " of "
                             + newCardObject.getSuit());
         
-        // and search magicHand here
-        //Then report the result here
+        // hard-coded values
+        Card luckyCard = new Card();
+        luckyCard.setValue(4);
+        luckyCard.setSuit("Diamonds");
+        
     }
     
 }
