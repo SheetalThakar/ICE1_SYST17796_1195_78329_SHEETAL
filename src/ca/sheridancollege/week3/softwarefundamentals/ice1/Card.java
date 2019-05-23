@@ -20,7 +20,11 @@ public class Card {
    private String suit; //clubs, spades, diamonds, hearts
    private int value;//1-13 
    private String card;
-
+   Card(int a, String b)
+   {
+       this.value=a;
+       this.suit=b;
+   }
    public static final String [] SUITS = {"Hearts", "Diamonds", "Spades", "Clubs"};
     /**
      * @return the suit
