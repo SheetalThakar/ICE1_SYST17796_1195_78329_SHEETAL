@@ -18,7 +18,7 @@ public class CardTrick {
     {
         Card[] magicHand = new Card[7];
         
-        Card luckyCard = new luckyCard();
+        Card luckyCard = new Card();
         
         luckyCard.setValue(10);
         luckyCard.setSuit("spades");
