@@ -34,6 +34,7 @@ public class CardTrick {
         System.out.println("Please enter card suits i.e Hearts , diamonds , spades ,clubs");
         String suits = input.nextLine();
         
+        //output of User input
         System.out.println("The card is " + value + " of " + suits);
         // and search magicHand here
         //Then report the result here
