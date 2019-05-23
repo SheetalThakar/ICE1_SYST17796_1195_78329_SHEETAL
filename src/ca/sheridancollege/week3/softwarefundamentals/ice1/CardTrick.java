@@ -45,6 +45,10 @@ public class CardTrick {
         System.out.println("Your choosen card is "+cardVal+" of "+Card.SUITS[cardSuit]);
         
         //insert code to ask the user for Card value and suit, create their card3
+        Card luckyCard= new Card();
+        luckyCard.setValue(3);
+        luckyCard.setSuit(Card.SUITS[3]);
+        
         
         //Then report the result here
     }
