@@ -53,6 +53,8 @@ public class CardTrick {
         luckyCard.setValue(2);
         luckyCard.setSuit("Heart");
         
+        System.out.println("Lucky Card Contains: " + luckyCard.getValue() + " of " + luckyCard.getSuit());
+        
         //insert code to ask the user for Card value and suit, create their card
         // and search magicHand here
         //Then report the result here
