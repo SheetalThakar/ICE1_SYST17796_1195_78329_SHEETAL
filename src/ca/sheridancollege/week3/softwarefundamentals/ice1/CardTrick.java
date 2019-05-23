@@ -48,6 +48,9 @@ public class CardTrick {
         
         //printing the new obj
         System.out.println("The new card is: "+c1.getValue()+"of "+c1.getSuit());
+        Card luckyCard=new Card();
+        luckyCard.setValue(2);
+        luckyCard.setSuit("Diamonds");
         
 
 
