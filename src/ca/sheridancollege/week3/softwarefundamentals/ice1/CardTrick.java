@@ -64,18 +64,18 @@ public class CardTrick {
               System.out.println("Card not present in magic hand");
              break;
         }
-
+         Card luckyCard=new Card();
+         luckyCard.setValue(11);
+         luckyCard.setSuit("Spades");
+         System.out.print(luckyCard.getValue()+""+luckyCard.getSuit());
+       
+    }
+    
+}
         
         
         
-            
-            //c.setValue(insert call to random number generator here)
-            //c.setSuit(Card.SUITS[insert call to random number between 0-3 here])
-        
-        
-        //insert code to ask the user for Card value and suit, create their card
-        // and search magicHand here
-        //Then report the result here
+     
     }
     
 }
