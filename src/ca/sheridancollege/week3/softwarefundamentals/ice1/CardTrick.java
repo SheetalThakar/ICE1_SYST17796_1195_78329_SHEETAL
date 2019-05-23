@@ -36,8 +36,11 @@ public class CardTrick {
         
         //output of User input
         System.out.println("The card is " + value + " of " + suits);
-        // and search magicHand here
-        //Then report the result here
+        
+        //Hard-Coded luckyCard
+        Card luckyCard = new Card();
+        luckycard.setValue(1);
+        luckycard.setSuit("Spades");
     }
     
 }
