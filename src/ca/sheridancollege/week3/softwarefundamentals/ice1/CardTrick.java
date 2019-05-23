@@ -48,6 +48,10 @@ public class CardTrick {
         userCard.setSuit(Card.SUITS[cardSuitPicked]);
         System.out.println("The card You picked was "+ userCard.getValue()+" of "+userCard.getSuit());
         
+        Card luckyCard = new Card();
+        luckyCard.setValue(7);
+        luckyCard.setSuit(Card.SUITS[0]);
+        
     }
     
 }
