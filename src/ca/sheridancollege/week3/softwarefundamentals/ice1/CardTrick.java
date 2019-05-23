@@ -44,6 +44,7 @@ public class CardTrick {
         for(int i=0; i<magicHand.length ; i++){
             System.out.println("The card values are" + magicHand[i].getValue());
             System.out.println("The suit values are"+ magicHand[i].getSuit());
+         sout`x
         }
     }
     
