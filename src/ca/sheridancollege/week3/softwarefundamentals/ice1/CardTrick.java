@@ -37,6 +37,11 @@ public class CardTrick {
         Card luckyCard= new Card();
         luckyCard.setValue(2);
         luckyCard.setSuit(Card.SUITS[2]);
+        
+        System.out.println("");
+        System.out.println("The card lucky card is "+luckyCard.getValue()+" of "+luckyCard.getSuit());
+        System.out.println("");
+        
         Scanner input = new Scanner(System.in);
         
         System.out.println("Please pick a card ");
