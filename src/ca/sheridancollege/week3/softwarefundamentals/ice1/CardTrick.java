@@ -43,10 +43,6 @@ public class CardTrick {
         System.out.println ("Magic hand was " + c.getValue + " and " + c.getSuit);
         
         
-        
-        //insert code to ask the user for Card value and suit, create their card
-        // and search magicHand here
-        //Then report the result here
     }
     
 }
