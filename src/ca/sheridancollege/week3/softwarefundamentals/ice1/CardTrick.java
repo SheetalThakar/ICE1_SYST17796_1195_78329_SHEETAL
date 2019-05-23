@@ -29,7 +29,7 @@ public class CardTrick {
         //insert code to ask the user for Card value and suit, create their card
         // and search magicHand here
         //Then report the result here
-                System.out.println("The generated cards are: ");
+                System.out.println("The generated cards are : ");
         for(int i=0; i<magicHand.length;i++)
         {
             System.out.println("Card"+(i+1)+"is "+magicHand[i].getValue()+" of "
