@@ -41,6 +41,8 @@ public class CardTrick {
         Card luckyCard = new Card();
         luckyCard.setValue(1);
         luckyCard.setSuit("Spades");
+        
+        //Luckycard output
+        System.out.println("The lucky card is "+ luckyCard.getValue() + " of " + luckyCard.getSuit());
     }
-    
 }
