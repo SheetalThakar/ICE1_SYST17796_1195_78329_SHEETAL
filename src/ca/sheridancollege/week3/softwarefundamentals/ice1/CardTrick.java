@@ -43,9 +43,9 @@ public class CardTrick {
         //insert code to ask the user for Card value and suit, create their card
         // and search magicHand here
         //Then report the result here
+        int card = 0;
         
-        Card[] luckyCard = { "4" , "Hearts"};
-        System.out.println("The lucky card is: " + luckyCard);
+        System.out.println("The lucky card is: " + card);
     }
     
 }
