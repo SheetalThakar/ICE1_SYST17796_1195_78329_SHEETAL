@@ -39,8 +39,8 @@ public class CardTrick {
         
         //Hard-Coded luckyCard
         Card luckyCard = new Card();
-        luckycard.setValue(1);
-        luckycard.setSuit("Spades");
+        luckyCard.setValue(1);
+        luckyCard.setSuit("Spades");
     }
     
 }
