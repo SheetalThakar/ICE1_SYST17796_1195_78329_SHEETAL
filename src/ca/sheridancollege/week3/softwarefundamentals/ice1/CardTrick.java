@@ -47,6 +47,7 @@ public class CardTrick {
         
         System.out.println("The lucky card is: " + card);
          System.out.println("exit");
+         System.out.print("hearts of 4");
     }
     
 }
