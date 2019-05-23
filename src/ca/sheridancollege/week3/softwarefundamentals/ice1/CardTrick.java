@@ -41,6 +41,8 @@ public class CardTrick {
         luckyCard.setValue(6);
         luckyCard.setSuit("Hearts");
         
+        System.out.println("card is:"+luckyCard.getValue()+" of "+luckyCard.getSuit());
+        
     }
     
 }
