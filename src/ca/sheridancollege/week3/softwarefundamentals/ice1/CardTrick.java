@@ -1,7 +1,6 @@
 /*
  * JANHVI SHARMA
  * 991542217
- * and open the template in the editor.
  */
 package ca.sheridancollege.week3.softwarefundamentals.ice1;
 import java.util.Scanner;
