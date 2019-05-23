@@ -36,6 +36,9 @@ public class CardTrick {
         System.out.println("Your card is "+number+" of "+suit);
         // and search magicHand here
         //Then report the result here
+        card luckyCard =new card();
+        luckyCard.getValue(1);
+        luckycard.setSuit("Spades");
     }
     
 }
