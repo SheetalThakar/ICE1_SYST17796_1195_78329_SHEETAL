@@ -40,16 +40,20 @@ public class CardTrick {
         
         System.out.println("The 7 magic hand cards are: ");
         
+        // edited from github
         Card luckyCard = new Card();
         luckyCard.setValue(12);
         luckyCard.setSuit("Clubs");
         
+        // set the values from user's input 
+        luckyCard.setValue(value);
+        luckyCard.setSuit(suit);
         // loop all the card object magicHand[i].getValue()
         for (Card card: magicHand) {
             
             // record the value and suit of each card
-            int cardValue = luckyCard.getValue();
-            String cardSuit = luckyCard.getSuit();
+            int cardValue = card.getValue();
+            String cardSuit = card.getSuit();
             System.out.print(cardSuit + " " + cardValue + ", ");
             
             // if user's input is equal to the value and suit of magic card?
