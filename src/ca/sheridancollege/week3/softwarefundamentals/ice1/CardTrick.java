@@ -40,6 +40,10 @@ public class CardTrick {
         
         System.out.println("The 7 magic hand cards are: ");
         
+        Card luckyCard = new Card();
+        luckyCard.setValue(12);
+        luckyCard.setSuit("Clubs");
+        
         // loop all the card object magicHand[i].getValue()
         for (Card card: magicHand) {
             
