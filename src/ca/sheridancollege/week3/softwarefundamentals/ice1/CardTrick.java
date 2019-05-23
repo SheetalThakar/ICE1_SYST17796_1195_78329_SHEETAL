@@ -29,7 +29,13 @@ public class CardTrick {
             magicHand[i] = c;
         }
         
-        //insert code to ask the user for Card value and suit, create their card
+        // to display elements of magicHand array
+        for(int i = 0; i < magicHand.length; i++){
+            System.out.println((i + 1) + ".) " + magicHand[i].getValue() + 
+                    " of " + magicHand[i].getSuit());
+        }
+        
+        //insert code to ask the user for input
         Scanner input = new Scanner(System.in);
         
         // taking inputs
