@@ -17,6 +17,7 @@ public class CardTrick {
     
     public static void main(String[] args)
     {
+        Card luckyCard=new Card(1,"Diamonds");
         Card[] magicHand = new Card[7];
         String card;
         Scanner input=new Scanner(System.in);
